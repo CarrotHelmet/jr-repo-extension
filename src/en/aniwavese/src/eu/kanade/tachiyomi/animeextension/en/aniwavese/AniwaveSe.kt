@@ -427,7 +427,7 @@ class AniwaveSe :
     }
 
     companion object {
-        private const val DOMAIN = "ww.aniwave.se"
+        private const val DOMAIN = "ww.aniwaves.ru"
 
         private val SOFTSUB_REGEX by lazy { Regex("""\bsoftsub\b""", RegexOption.IGNORE_CASE) }
         private val RELEASE_REGEX by lazy { Regex("""Release: (\d+/\d+/\d+ \d+:\d+)""") }
