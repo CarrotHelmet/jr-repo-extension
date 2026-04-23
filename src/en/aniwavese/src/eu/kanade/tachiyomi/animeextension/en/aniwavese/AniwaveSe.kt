@@ -33,7 +33,7 @@ class AniwaveSe :
     ParsedAnimeHttpSource(),
     ConfigurableAnimeSource {
 
-    override val name = "Aniwave.se"
+    override val name = "Aniwaves.ru"
 
     override val baseUrl by lazy {
         val customDomain = preferences.getString(PREF_CUSTOM_DOMAIN_KEY, null)
